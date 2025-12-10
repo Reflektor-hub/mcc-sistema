@@ -1,3 +1,4 @@
+cat > Pipfile << 'EOF'
 [[source]]
 url = "https://pypi.org/simple"
 verify_ssl = true
@@ -10,3 +11,4 @@ gunicorn = "==21.2.0"
 
 [requires]
 python_version = "3.11"
+EOF
