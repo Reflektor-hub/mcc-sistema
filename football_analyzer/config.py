@@ -1,0 +1,1 @@
+# Configuration settings for the Football Analyzer\n\n# API Keys\nAPI_KEY = 'your_api_key_here'\n\n# Leagues\nLEAGUES = [\n    'Premier League',\n    'La Liga',\n    'Bundesliga'\n]\n\n# Database Settings\nDATABASE_SETTINGS = {\n    'host': 'localhost',\n    'port': 5432,\n    'user': 'your_db_user',\n    'password': 'your_db_password',\n    'dbname': 'football_analyzer'\n}
